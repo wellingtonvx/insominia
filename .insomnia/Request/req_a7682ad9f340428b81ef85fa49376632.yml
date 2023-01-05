@@ -1,0 +1,23 @@
+_id: req_a7682ad9f340428b81ef85fa49376632
+type: Request
+parentId: fld_6f8458acaf214551a0f4d6f48ee577ca
+modified: 1669225627123
+created: 1669225460157
+url: "{{ _.baseUrl }}/v1/business/photographer/portfolio/7/aprovado"
+name: Check_Segment_portfolio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1667848030083.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

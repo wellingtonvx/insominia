@@ -1,0 +1,23 @@
+_id: req_94f0aa6c226942ea81473c996dcc196e
+type: Request
+parentId: fld_f7f7df6f5765410ab8adc6aaacb22758
+modified: 1670508843045
+created: 1670246288038
+url: "{{ _.baseUrl }}/v1/pagarme/test"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1670246288038
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

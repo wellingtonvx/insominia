@@ -1,0 +1,23 @@
+_id: req_252b8369067246e7bd3b16346df41fd3
+type: Request
+parentId: fld_f8b7c01f15eb4112b6bffb3b7ba56c55
+modified: 1669066084229
+created: 1669066075706
+url: "{{ _.baseUrl }}/v1/marketplace/proposal/58294"
+name: Update_Proposal
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668949922158.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

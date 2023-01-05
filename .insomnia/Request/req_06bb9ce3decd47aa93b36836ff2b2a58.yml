@@ -1,0 +1,27 @@
+_id: req_06bb9ce3decd47aa93b36836ff2b2a58
+type: Request
+parentId: fld_f8b7c01f15eb4112b6bffb3b7ba56c55
+modified: 1669066057517
+created: 1669066047290
+url: "{{ _.baseUrl }}/v1/marketplace/proposal"
+name: Create_Proposal
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668836107636.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

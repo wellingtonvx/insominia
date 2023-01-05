@@ -1,0 +1,23 @@
+_id: req_884a7db3deb043c7b4ee67fa7ffd60dc
+type: Request
+parentId: fld_6f8458acaf214551a0f4d6f48ee577ca
+modified: 1672680078645
+created: 1672679209553
+url: "{{ _.baseUrl }}/v1/marketplace/jobs/58310/photographers/interactions"
+name: Get_interactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1667971733277.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

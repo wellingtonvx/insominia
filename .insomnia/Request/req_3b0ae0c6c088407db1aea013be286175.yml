@@ -1,0 +1,23 @@
+_id: req_3b0ae0c6c088407db1aea013be286175
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1666982931230
+created: 1666978260549
+url: "{{ _.baseUrl }}/v1/dashboards/confort/job-indicators"
+name: Get_Job_Indicator_Customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1666978260549
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

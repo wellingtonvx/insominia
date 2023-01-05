@@ -1,0 +1,23 @@
+_id: req_068d2709d34347b5bb46c01afd181b21
+type: Request
+parentId: fld_6f8458acaf214551a0f4d6f48ee577ca
+modified: 1672679195956
+created: 1668012967676
+url: "{{ _.baseUrl }}/v1/photographer/jobs/opportunities?page=2"
+name: Get_Opportunity
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668012967676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

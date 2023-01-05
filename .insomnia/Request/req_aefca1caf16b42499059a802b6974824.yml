@@ -1,0 +1,32 @@
+_id: req_aefca1caf16b42499059a802b6974824
+type: Request
+parentId: fld_f7f7df6f5765410ab8adc6aaacb22758
+modified: 1672165692323
+created: 1670420556399
+url: "{{ _.baseUrl }}/v1/pagarme/payment/58342"
+name: Create_payment_pagarme
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"amount": 720,
+    	"payment_method": "credit_card",
+    	"card_hash": "5783253_QVnANG5Xhm8o73xFDn7x2QBpO1AUkjhitpY6Bs8I4E5w14Ltucc38s3A5GGL3wU+4zCsmByu2mh6Pb4qVesJz3IBcmVSI8vbYse0phScvKJINV6DWmTB0dRwKd9rUlB7Jd0oQiNtsgNWQDwVAxJof199FXwSrBgQ5nUoUoyC4xst92R2W5aq09lhSoPl3q/zS+ZZqPVuOwTztBzGZgtvcYdWzn+I8UxaY6jXAzWCgUy3ryK4SOPHLZ+bhATQmeFcX+d1g2jzZKmb/WFZuE8o5b3zttEcm7Sj0j0MbEqH0SKG9jyqFzNLG7uYpJkHeUFfCrPNZ9iKuBWoSVnRNnhbrw=="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1670420556399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

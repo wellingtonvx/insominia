@@ -1,0 +1,23 @@
+_id: req_def4e6d576094f8e93a6e2d7bac03bfc
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1669141634078
+created: 1666877776261
+url: "{{ _.baseUrl }}/v1/business/customer/740377/jobs/58292"
+name: Get_Job_business
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1666877776261
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

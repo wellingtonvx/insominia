@@ -1,0 +1,23 @@
+_id: req_918b9962426e4574a631ee170fbab6df
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1667326592687
+created: 1666979378116
+url: "{{ _.baseUrl }}/v1/organizations/8/scheduling-config?segmentId=17"
+name: Get_schedduling_job
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1666979378116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

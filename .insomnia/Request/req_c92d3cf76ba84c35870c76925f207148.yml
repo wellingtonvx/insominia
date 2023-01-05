@@ -1,0 +1,29 @@
+_id: req_c92d3cf76ba84c35870c76925f207148
+type: Request
+parentId: wrk_ec654d17af714e9790cf250cc253ad01
+modified: 1672167452236
+created: 1666464627367
+url: "{{ _.baseUrl }}/v1/auth"
+name: Create_Token_Login_adm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"wellingtonvx@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666464627367
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

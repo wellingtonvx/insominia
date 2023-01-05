@@ -1,0 +1,44 @@
+_id: req_355ef82f49e9477dbaf26395de5265ff
+type: Request
+parentId: fld_597f43fd127a42f3a912949cb9ebd937
+modified: 1668012942825
+created: 1667683092491
+url: https://app.fotop.io/v2/jobs/marketplace
+name: Criar Job MKP
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"briefing": "Informações\nNúmero de formandos: 20\nNúmero de convidados: 60",
+    	"category": 35,
+    	"city": "Fortaleza",
+    	"date": "2022-11-08",
+    	"duration":"3",
+    "extra": {
+    	"number_trainees": {
+    		"name": "Numero de formandos", "value": "20", "type": 		"numero"},
+    	"number_guests":{
+    		"name": "Numero de convidados", "value": "60", "type": 			"numero"}
+    },
+    	"hour":"02:00",
+    	"neighborhood": "Sapiranga-Coité",
+    	"number" : "479",
+    	"state" : "CE",
+    	"street": "Avenida Evilásio Almeida Miranda",
+    	"zipcode" : "60833-302"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667683092491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

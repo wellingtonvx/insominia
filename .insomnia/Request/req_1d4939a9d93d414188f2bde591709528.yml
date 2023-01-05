@@ -1,0 +1,23 @@
+_id: req_1d4939a9d93d414188f2bde591709528
+type: Request
+parentId: fld_3d010e064c3c44458ce1cf366a72b883
+modified: 1668828243467
+created: 1668827918484
+url: "{{ _.baseUrl }}/v1/marketplace/messages/58294/24089"
+name: update_status_message
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668608200124
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

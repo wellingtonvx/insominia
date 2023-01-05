@@ -1,0 +1,32 @@
+_id: req_414fd50e77d04f5ba933f8095d509e46
+type: Request
+parentId: fld_f7f7df6f5765410ab8adc6aaacb22758
+modified: 1672145993536
+created: 1670526501331
+url: "{{ _.baseUrl }}/v1/marketplace/payment/58301"
+name: Create_payment_fotop
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"amount": 500,
+    	"partnerId": 740325,
+    	"cardHash": "5755199_hCQZEO2gZswZAOraWzy2EqYt3k6z4E5a1hG0/tT63S+gCBEkl8xv0qYtxc9PeM3P9tdfiJiBvwtJzy+PArsvYZ+d+WwndIIzmIaqmpvbon50I2WyAKNqt6LGtxURE00XxJLsu+/7eGlW1dDChlQzg30eA3bHPovX41MYEev5E1UdxqAK5hzuvFG3QjRwYyYUQwbLuXteXx5qmgeDO9DJtFJYD+hdbDw6E9GtZE+1Y6t7IFnl0WDACeTti+HlHZrGGX81vUjueSlYJSzhRc2/F2eh0CEYye04r3hIgTCuKefvaFmAC0XhLRo+wot0hp/1YaYCveqzaaRQ7sjqqzm+zw=="
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1670333422218.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

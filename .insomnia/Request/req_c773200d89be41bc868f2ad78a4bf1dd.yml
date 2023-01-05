@@ -1,0 +1,30 @@
+_id: req_c773200d89be41bc868f2ad78a4bf1dd
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1672079177082
+created: 1672057372093
+url: "{{ _.baseUrl }}/v2/jobs/marketplace/cancel/58341"
+name: Cancel_MKT_Job
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cancelObservation" : "Não vou conseguir efetuar o pagamento"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668241263938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

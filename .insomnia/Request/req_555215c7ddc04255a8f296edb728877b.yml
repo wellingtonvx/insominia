@@ -1,0 +1,29 @@
+_id: req_555215c7ddc04255a8f296edb728877b
+type: Request
+parentId: wrk_ec654d17af714e9790cf250cc253ad01
+modified: 1672167471936
+created: 1672167455508
+url: "{{ _.baseUrl }}/v1/auth"
+name: Create_Token_Login_user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"leticialima@gmail.com",
+    	"password": "@Wellgui12"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666464627317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

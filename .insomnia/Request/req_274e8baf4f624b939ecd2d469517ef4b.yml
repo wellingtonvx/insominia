@@ -1,0 +1,33 @@
+_id: req_274e8baf4f624b939ecd2d469517ef4b
+type: Request
+parentId: fld_3d010e064c3c44458ce1cf366a72b883
+modified: 1669381068894
+created: 1668608478592
+url: "{{ _.baseUrl }}/v1/marketplace/messages/58292"
+name: Create_message
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+    	"userId": 740325,
+    	"message": "Testando a notificação do clinte",
+    	"sender": "cliente"
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668608478592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_99ffb162591643d9a0d28079a80c53d0
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1666984026770
+created: 1666979397688
+url: "{{ _.baseUrl }}/v2/users/search-jobs"
+name: Search_User_Jobs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1666671201814
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

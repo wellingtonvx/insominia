@@ -1,0 +1,23 @@
+_id: req_f255ef72ae93420c982b1fe3814249d0
+type: Request
+parentId: fld_3557176fd6774ee3bd99111fa70be9b7
+modified: 1671036888753
+created: 1667213625120
+url: "{{ _.baseUrl }}/v1/business/confort/portfolio/615982/28"
+name: Get_Confort_portfolio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1667213625120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

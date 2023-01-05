@@ -1,0 +1,23 @@
+_id: req_52334ce41a314ece8dfc316f77cd7fda
+type: Request
+parentId: fld_f8b7c01f15eb4112b6bffb3b7ba56c55
+modified: 1672166758756
+created: 1669063736681
+url: "{{ _.baseUrl }}/v1/marketplace/jobs/proposal/58343/740325"
+name: Get_Proposal
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1669063736681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

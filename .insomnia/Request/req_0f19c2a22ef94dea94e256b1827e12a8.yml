@@ -1,0 +1,24 @@
+_id: req_0f19c2a22ef94dea94e256b1827e12a8
+type: Request
+parentId: fld_9c48d38335914d9db1ba2cdd5e5c4f53
+modified: 1668105104422
+created: 1668047916400
+url: "{{ _.baseUrl
+  }}/v1/states?filter=%7B%22id_pais%22:31%7D&project[]=id_estados&project[]=uf"
+name: Get_States
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668047916400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_3f75234c7a04459b80e004bf7dbe802a
+type: Request
+parentId: fld_3d010e064c3c44458ce1cf366a72b883
+modified: 1672165725789
+created: 1668607921656
+url: "{{ _.baseUrl }}/v1/marketplace/messages/58343?partnerId=740325"
+name: Get_Messages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1668607921656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
