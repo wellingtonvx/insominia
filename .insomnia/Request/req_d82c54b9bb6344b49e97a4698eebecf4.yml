@@ -1,0 +1,32 @@
+_id: req_d82c54b9bb6344b49e97a4698eebecf4
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1673005933783
+created: 1673005733527
+url: "{{ _.baseUrl }}/v1/exams"
+name: Create_Exam
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"segmentId": 17,
+    	"customerId": 740325,
+    	"grade": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1672338071050
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

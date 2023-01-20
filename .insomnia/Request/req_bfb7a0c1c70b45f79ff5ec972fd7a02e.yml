@@ -1,0 +1,52 @@
+_id: req_bfb7a0c1c70b45f79ff5ec972fd7a02e
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1674071120746
+created: 1673541803884
+url: "{{ _.baseUrl }}/v1/exams/740325/17"
+name: Update_Exam
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"answers": {
+    				"tecnica_1": { "questionId": 1, "answer": "2" },
+              "tecnica_2": { "questionId": 2, "answer": "2" },
+              "tecnica_3": { "questionId": 3, "answer": "3" },
+              "entrega_4": { "questionId": 4, "answer": "2" },
+              "entrega_5": { "questionId": 5, "answer": "2" },
+              "entrega_6": { "questionId": 6, "answer": "2" },
+              "entrega_7": { "questionId": 7, "answer": "1" },
+              "entrega_8": { "questionId": 8, "answer": "2" },
+              "entrega_9": { "questionId": 9, "answer": "3" },
+              "entrega_10": {
+                "questionId": 10,
+                "answer": "s fdgs gs fgs gsfg fsdg sfgf fg"
+              },
+              "comportamento_11": { "questionId": 11, "answer": "3" },
+              "comportamento_12": { "questionId": 12, "answer": "2" },
+              "comportamento_13": {
+                "questionId": 13,
+                "answer": "dsf sgf sfg sfg sfg"
+              },
+              "comportamento_14": { "questionId": 14, "answer": "s gsg sfg sfg" }
+            }
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1672491415691.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

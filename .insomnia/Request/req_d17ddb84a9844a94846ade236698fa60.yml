@@ -1,0 +1,34 @@
+_id: req_d17ddb84a9844a94846ade236698fa60
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1673889127412
+created: 1673005192865
+url: "{{ _.baseUrl }}/v1/exams/questions"
+name: Create_Question
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"segmentId" : 17,
+    	"order": 15,
+    	"question" : "Realize o teste prático de acordo com as orientações do briefing de trabalho abaixo:",
+    	"type": "upload",
+    	"category": "pratico"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1671724692485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

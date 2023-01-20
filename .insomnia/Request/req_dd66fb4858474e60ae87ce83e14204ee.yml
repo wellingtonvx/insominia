@@ -1,0 +1,23 @@
+_id: req_dd66fb4858474e60ae87ce83e14204ee
+type: Request
+parentId: fld_3557176fd6774ee3bd99111fa70be9b7
+modified: 1674147244292
+created: 1674147204753
+url: "{{ _.baseUrl }}/v1/business/portfolio/615982/28/aprovado"
+name: Get_portfolio
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1667096501618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

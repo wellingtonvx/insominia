@@ -1,0 +1,23 @@
+_id: req_58e1854df2f34bbd9ea2bddacab75736
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1674139555017
+created: 1674139532027
+url: "{{ _.baseUrl }}/v1/exams/740325/17"
+name: View_Exam
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1672568088011.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

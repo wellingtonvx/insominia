@@ -1,0 +1,23 @@
+_id: req_00ec365e34764be7951d4ae1437391c0
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1672952858813
+created: 1672951449615
+url: "{{ _.baseUrl }}/v1/exams"
+name: List_Exams
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1672951449615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
