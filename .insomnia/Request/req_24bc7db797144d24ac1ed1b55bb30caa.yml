@@ -1,9 +1,9 @@
 _id: req_24bc7db797144d24ac1ed1b55bb30caa
 type: Request
 parentId: fld_90711d662e3f432196404c27f34eab2a
-modified: 1674136755295
+modified: 1674826000823
 created: 1673005977445
-url: "{{ _.baseUrl }}/v1/exams/3"
+url: "{{ _.baseUrl }}/v1/exams/5"
 name: Get_Exam
 description: ""
 method: GET

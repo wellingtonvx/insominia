@@ -1,0 +1,25 @@
+_id: req_0702740ce69c4714b3ed8dc080a44d8b
+type: Request
+parentId: fld_a53b3f54972c4872a6bb5b4a6a5370a0
+modified: 1675690781924
+created: 1675690730186
+url: "{{ _.baseUrl }}/v1/organizations/26"
+name: Update_Organization
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1675250934702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

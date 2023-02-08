@@ -1,0 +1,32 @@
+_id: req_e1143aeb8b58434780a09785d3c88699
+type: Request
+parentId: fld_a41fd486b9e1494c9c5dc121986b179a
+modified: 1674732671249
+created: 1674732296476
+url: "{{ _.baseUrl }}/v1/jobs/cancel-reason"
+name: Create-cancel-reason
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "Proprietário pediu para reagendar",
+    	"type": "cancelamento",
+    	"generateNoShow" : "sim"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1673396537469.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

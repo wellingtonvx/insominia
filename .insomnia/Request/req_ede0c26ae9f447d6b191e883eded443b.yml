@@ -1,10 +1,10 @@
-_id: req_def4e6d576094f8e93a6e2d7bac03bfc
+_id: req_ede0c26ae9f447d6b191e883eded443b
 type: Request
-parentId: fld_7758e91028f0446ea32637888424d701
-modified: 1674847050657
-created: 1666877776261
-url: "{{ _.baseUrl }}/v1/business/customer/740325/jobs/2050"
-name: Get_Job_business
+parentId: fld_a53b3f54972c4872a6bb5b4a6a5370a0
+modified: 1675690800272
+created: 1675690697895
+url: "{{ _.baseUrl }}/v1/organizations/26"
+name: Get_Organization
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token_login }}"
-metaSortKey: -1666877776261
+metaSortKey: -1675690697895
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

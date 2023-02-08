@@ -1,7 +1,7 @@
 _id: req_b807770a09f7433399177d0f5d796013
 type: Request
 parentId: fld_7758e91028f0446ea32637888424d701
-modified: 1672169583006
+modified: 1674846924962
 created: 1668434611476
 url: "{{ _.baseUrl }}/v2/users/search-jobs?ids=58343"
 name: New Request
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{{ _.token_user }}"
+  token: "{{ _.token_login }}"
 metaSortKey: -1668434611476
 isPrivate: false
 settingStoreCookies: true

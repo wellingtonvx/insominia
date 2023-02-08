@@ -1,10 +1,10 @@
-_id: req_def4e6d576094f8e93a6e2d7bac03bfc
+_id: req_e65293955e844ef2be0c717dc148d54e
 type: Request
-parentId: fld_7758e91028f0446ea32637888424d701
-modified: 1674847050657
-created: 1666877776261
-url: "{{ _.baseUrl }}/v1/business/customer/740325/jobs/2050"
-name: Get_Job_business
+parentId: fld_e69262cdf3544e5894b7c1e6651585db
+modified: 1675448639268
+created: 1675426617249
+url: "{{ _.prodUrl }}/v1/exams/753317/17"
+name: View_Exam
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token_login }}"
-metaSortKey: -1666877776261
+metaSortKey: -1672568088011.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

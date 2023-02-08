@@ -1,0 +1,27 @@
+_id: req_a3da00af451745d887eaade2a55662b0
+type: Request
+parentId: fld_83cce981ca574b4e895a5b2166e52222
+modified: 1675876171778
+created: 1675876126304
+url: "{{ _.baseUrl }}"
+name: Activate/Desativate _schedule
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1675876126304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

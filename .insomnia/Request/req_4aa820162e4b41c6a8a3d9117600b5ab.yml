@@ -1,10 +1,10 @@
-_id: req_def4e6d576094f8e93a6e2d7bac03bfc
+_id: req_4aa820162e4b41c6a8a3d9117600b5ab
 type: Request
-parentId: fld_7758e91028f0446ea32637888424d701
-modified: 1674847050657
-created: 1666877776261
-url: "{{ _.baseUrl }}/v1/business/customer/740325/jobs/2050"
-name: Get_Job_business
+parentId: fld_a41fd486b9e1494c9c5dc121986b179a
+modified: 1674732277660
+created: 1674732277660
+url: "{{ _.baseUrl }}/v1/jobs/cancel-reason/1"
+name: get-cancel-reason
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token_login }}"
-metaSortKey: -1666877776261
+metaSortKey: -1673841625324
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

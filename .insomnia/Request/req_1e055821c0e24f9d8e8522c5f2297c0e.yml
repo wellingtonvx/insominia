@@ -1,9 +1,9 @@
 _id: req_1e055821c0e24f9d8e8522c5f2297c0e
 type: Request
 parentId: fld_90711d662e3f432196404c27f34eab2a
-modified: 1673357356083
+modified: 1675430514096
 created: 1673287509028
-url: "{{ _.baseUrl }}/v1/exams/questions"
+url: "{{ _.baseUrl }}/v1/questions"
 name: List_Questios
 description: ""
 method: GET
