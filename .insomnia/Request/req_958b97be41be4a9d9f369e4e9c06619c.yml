@@ -1,0 +1,25 @@
+_id: req_958b97be41be4a9d9f369e4e9c06619c
+type: Request
+parentId: fld_6f8458acaf214551a0f4d6f48ee577ca
+modified: 1710958948932
+created: 1710958807797
+url: "{{ _.prodUrl }}/v1/photographer/jobs/126581/job-info"
+name: Job - Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_prod }}"
+metaSortKey: -1710958807798
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_1dd1b0ae6f5f453a945c668a9a67fc63
+type: Request
+parentId: fld_679e5fa0a70d44e78785c5e6af4dd7b5
+modified: 1695940304447
+created: 1695919612047
+url: "{{ _.baseUrl }}/v1/dashboard-operation/marketplace"
+name: Marketplace
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695328450192.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

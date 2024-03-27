@@ -1,0 +1,27 @@
+_id: req_2d61fc9fe4a14246ad812aec1a7db671
+type: Request
+parentId: fld_030369f691fa4b6db0fb5fc291cb6c27
+modified: 1695738060711
+created: 1695666293902
+url: "{{ _.prodUrl
+  }}/v1/reports/jobs/status-category?start=2023-09-01%2000%3A00%3A00&end=2023-0\
+  9-30%2023%3A59%3A59&period=weekly"
+name: Prod
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_prod }}"
+metaSortKey: -1695527693892.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

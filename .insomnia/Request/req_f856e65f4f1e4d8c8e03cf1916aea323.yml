@@ -1,0 +1,35 @@
+_id: req_f856e65f4f1e4d8c8e03cf1916aea323
+type: Request
+parentId: fld_b3cade6d25834af9a6d3180ddbc89f2a
+modified: 1711478680619
+created: 1693313056391
+url: "{{ _.baseUrl }}/v1/jobs/58885/photographer-execution"
+name: Checking
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"event": "arrived",
+    	"latitude": 202154562121,
+    	"longitude": 2456410645646
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1693313056391
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

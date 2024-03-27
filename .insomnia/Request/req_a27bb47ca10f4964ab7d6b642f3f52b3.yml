@@ -1,0 +1,34 @@
+_id: req_a27bb47ca10f4964ab7d6b642f3f52b3
+type: Request
+parentId: fld_0dff61e5536d4f8cb7dd91e80414573c
+modified: 1701110916761
+created: 1701109693018
+url: "{{ _.baseUrl }}/v1/customer/messages/config"
+name: CreateConfigMessages
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"title" : "Agendamento",
+    	"changeableFields" : "photographerUserId:id_parceiros,customerName:nome_cliente",
+    	"defaultMessage": "Olá <contatonolocal>, /nRecebemos o seu agendamento para realização de sessão fotográfica para o anúncio do seu imóvel junto à <imobiliária>. /nData: <Data e Hora>/nEndereço:<endereço>/nMais próximo entraremos em contato para confirmar sua sessão, e enviaremos os dados do fotógrafo responsável um dia antes do trabalho./nQualquer dúvida, ficamos à disposição./nObrigada!/nJob ID: <job id>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1700851617440.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

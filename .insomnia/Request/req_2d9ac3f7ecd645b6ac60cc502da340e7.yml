@@ -1,0 +1,25 @@
+_id: req_2d9ac3f7ecd645b6ac60cc502da340e7
+type: Request
+parentId: fld_d0f2693e815b4ed3832283bf94cbb4f3
+modified: 1704308297172
+created: 1701951973496
+url: "{{ _.baseUrl }}/v1/financial/invoice/90"
+name: Delete invoices
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1694965064457
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

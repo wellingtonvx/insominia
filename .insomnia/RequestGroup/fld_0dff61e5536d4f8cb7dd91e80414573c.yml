@@ -1,0 +1,10 @@
+_id: fld_0dff61e5536d4f8cb7dd91e80414573c
+type: RequestGroup
+parentId: wrk_ec654d17af714e9790cf250cc253ad01
+modified: 1701109020228
+created: 1701109020228
+name: CustomerMessages
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1701109020228

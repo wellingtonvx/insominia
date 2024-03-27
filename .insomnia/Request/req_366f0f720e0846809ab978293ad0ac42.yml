@@ -1,0 +1,25 @@
+_id: req_366f0f720e0846809ab978293ad0ac42
+type: Request
+parentId: fld_70db7d85ef9243a8a41dd63340621b5e
+modified: 1698242846086
+created: 1698242776029
+url: "{{ _.baseUrl }}/v1/photographers/feedbacks/low-grade/24089"
+name: LastJobs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1698242776029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

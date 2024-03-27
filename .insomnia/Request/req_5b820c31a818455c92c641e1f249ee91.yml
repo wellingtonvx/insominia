@@ -1,0 +1,29 @@
+_id: req_5b820c31a818455c92c641e1f249ee91
+type: Request
+parentId: fld_83cce981ca574b4e895a5b2166e52222
+modified: 1703011854065
+created: 1703011572954
+url: "{{ _.baseUrl
+  }}/v1/organizations/80/external-scheduling-config?segmentId=17&token=eyJhbGci\
+  OiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjc0MDQzMSwiaWRKb2IiOjU4NDEyLCJp\
+  YXQiOjE3MDI5OTI5NTAsImV4cCI6MTcwNTU4NDk1MH0.bM-rXBD78QWf7Q5zQDeK6h6OCde_O_qQY\
+  IkMrfSZEwo"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1703011572954
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

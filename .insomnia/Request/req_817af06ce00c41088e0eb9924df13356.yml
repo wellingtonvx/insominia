@@ -1,0 +1,33 @@
+_id: req_817af06ce00c41088e0eb9924df13356
+type: Request
+parentId: fld_68117ade2cf44466be1610ad1c932c21
+modified: 1701882255936
+created: 1701882227656
+url: "{{ _.baseUrl }}/v1/job/feedback-item/18"
+name: UpdateFeedbackItemDev
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"category":"fotos",
+    	"status":"ativo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1701495447708.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

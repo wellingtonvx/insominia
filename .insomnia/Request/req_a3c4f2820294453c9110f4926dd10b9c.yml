@@ -1,0 +1,25 @@
+_id: req_a3c4f2820294453c9110f4926dd10b9c
+type: Request
+parentId: fld_d0f2693e815b4ed3832283bf94cbb4f3
+modified: 1705348818713
+created: 1705348803615
+url: "{{ _.baseUrl }}/v1/financial/contacts"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1705348803616
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

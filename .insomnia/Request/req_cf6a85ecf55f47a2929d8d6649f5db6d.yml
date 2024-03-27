@@ -1,0 +1,27 @@
+_id: req_cf6a85ecf55f47a2929d8d6649f5db6d
+type: Request
+parentId: fld_eea97c8eba084fc5b2b584ea146e365a
+modified: 1708971959263
+created: 1708968973996
+url: "{{ _.baseUrl
+  }}/v1/reports/sla/all?start=2023-02-01%2000%3A00%3A00&end=2024-02-29%2023%3A5\
+  9%3A59&period=weekly"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1708968973996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

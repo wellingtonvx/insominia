@@ -1,0 +1,27 @@
+_id: req_c4e7a179882440b1806f7c6ed6878a7f
+type: Request
+parentId: fld_314f65de5c7944718e9bd9c63b4415f9
+modified: 1698064350669
+created: 1697466313452
+url: "{{ _.baseUrl
+  }}/v1/photographer/followup/details/22503chrome://vivaldi-webui/startpage?sec\
+  tion=Speed-dials&background-color=#2e2f37"
+name: GertPhotographersDetails
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1696555971509.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

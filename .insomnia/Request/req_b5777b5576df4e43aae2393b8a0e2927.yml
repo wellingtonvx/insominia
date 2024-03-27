@@ -1,0 +1,25 @@
+_id: req_b5777b5576df4e43aae2393b8a0e2927
+type: Request
+parentId: fld_679e5fa0a70d44e78785c5e6af4dd7b5
+modified: 1695402960040
+created: 1695402947157
+url: "{{ _.baseUrl }}/v1/dashboard-operation/jobsdx-count"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695402947157
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

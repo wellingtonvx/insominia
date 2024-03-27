@@ -1,0 +1,25 @@
+_id: req_c39316fbc05f46ef8428b7af115c0749
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1700594197409
+created: 1700490761929
+url: "{{ _.baseUrl }}/v1/jobs/duplicated-job"
+name: SendEmail Duplicate job
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1700490761929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

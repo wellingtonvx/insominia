@@ -1,0 +1,28 @@
+_id: req_7173e14786144c1d904b225109ae5057
+type: Request
+parentId: fld_7ac1157f4628441a8242209b5758d138
+modified: 1707225092382
+created: 1707225088002
+url: "{{ _.baseUrl
+  }}/v1/business/jobs/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZENsaWVudGUiOjc0\
+  MDMyNSwiaWRKb2IiOjU4ODI4LCJpYXQiOjE3MDcyMjQzNzIsImV4cCI6MTcwOTgxNjM3Mn0.av9hy\
+  laszlZeXEl47hw5JFVLcMugwNVR7xs0XDaLfhU/decode"
+name: view job
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1705652792969.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

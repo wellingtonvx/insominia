@@ -1,0 +1,25 @@
+_id: req_319be451f9a9401eb394163ec122b65d
+type: Request
+parentId: fld_314f65de5c7944718e9bd9c63b4415f9
+modified: 1697477841003
+created: 1697459502391
+url: "{{ _.baseUrl }}/v1/photographer/followup/newbie"
+name: GetNewbiePhotographers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1697459502391
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

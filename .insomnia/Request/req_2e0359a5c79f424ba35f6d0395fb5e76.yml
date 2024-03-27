@@ -1,0 +1,25 @@
+_id: req_2e0359a5c79f424ba35f6d0395fb5e76
+type: Request
+parentId: fld_623dc72c7bf6447086750b3c6ed86543
+modified: 1694626555452
+created: 1694626511043
+url: "{{ _.baseUrl }}/v1/dashboard-monitoring/jobs-execution"
+name: Jobs Execution
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1694626511043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

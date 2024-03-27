@@ -1,0 +1,36 @@
+_id: req_43d2a361c24540a7b0f195c987bffd24
+type: Request
+parentId: fld_1ac602b3f4094bca92201deadfac0de2
+modified: 1709932469278
+created: 1709922252933
+url: "{{ _.baseUrl }}/v1/dashboards/get-csv"
+name: csv
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a6d8880bffb843b1a94eccf1bf288950
+      name: csvFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/wellington/Área de Trabalho/log_antes.csv
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1709188855496
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

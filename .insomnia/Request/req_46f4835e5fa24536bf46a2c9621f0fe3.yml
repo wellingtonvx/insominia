@@ -1,0 +1,25 @@
+_id: req_46f4835e5fa24536bf46a2c9621f0fe3
+type: Request
+parentId: fld_679e5fa0a70d44e78785c5e6af4dd7b5
+modified: 1696197358677
+created: 1695940311485
+url: "{{ _.prodUrl }}/v1/dashboard-operation/contracts"
+name: Prod Marketplace
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_prod }}"
+metaSortKey: -1695316034031.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

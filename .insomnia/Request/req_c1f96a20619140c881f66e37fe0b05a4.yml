@@ -1,0 +1,32 @@
+_id: req_c1f96a20619140c881f66e37fe0b05a4
+type: Request
+parentId: fld_d0f2693e815b4ed3832283bf94cbb4f3
+modified: 1695303703474
+created: 1695303617871
+url: "{{ _.baseUrl }}/v1/financial/invoice/pendencies/urls"
+name: Pendencies invoices
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"invoiceIds": [65,66,67]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695303617871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

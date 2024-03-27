@@ -1,0 +1,27 @@
+_id: req_e3491db53a234725a702cb8fe12db5e7
+type: Request
+parentId: fld_030369f691fa4b6db0fb5fc291cb6c27
+modified: 1699883552607
+created: 1699882547055
+url: "{{ _.baseUrl
+  }}/v1/reports/jobs/schedule?start=2023-11-01%2000%3A00%3A00&end=2023-11-31%20\
+  23%3A59%3A59&period=weekly"
+name: Schedule
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695590067260.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

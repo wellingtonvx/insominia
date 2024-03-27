@@ -1,0 +1,25 @@
+_id: req_3f37281827ea469d9baad718b788cde8
+type: Request
+parentId: fld_7ac1157f4628441a8242209b5758d138
+modified: 1705956949521
+created: 1705956782323
+url: "{{ _.baseUrl }}/v1/acting-area"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1705956782323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

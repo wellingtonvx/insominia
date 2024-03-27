@@ -1,0 +1,29 @@
+_id: req_193a45e4718445a48a30597752614cf7
+type: Request
+parentId: wrk_ec654d17af714e9790cf250cc253ad01
+modified: 1708426721119
+created: 1707309444913
+url: https://api.hauseful.com/v1/appointments?startDate=01%2F02%2F2024&endDate=29%2F02%2F2024&page=0
+name: Listar Jobs Hauseul
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_5ab9ca59355e44f2b19258c79d54ae8b
+    disabled: true
+  - id: pair_4dc4acda41024dc0b45d06641b3c6f18
+    name: Authorization
+    value: c8e4dc31-8862-4be8-bb5e-e216917061d8
+    description: ""
+authentication: {}
+metaSortKey: -1707309444913
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

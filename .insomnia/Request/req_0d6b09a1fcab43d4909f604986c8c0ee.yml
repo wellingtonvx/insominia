@@ -1,0 +1,25 @@
+_id: req_0d6b09a1fcab43d4909f604986c8c0ee
+type: Request
+parentId: fld_314f65de5c7944718e9bd9c63b4415f9
+modified: 1697543454168
+created: 1697543451056
+url: "{{ _.baseUrl }}/v1/photographer/followup/active"
+name: GetActivePhotographers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1697007736950.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

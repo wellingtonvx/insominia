@@ -1,0 +1,25 @@
+_id: req_d9c91cbd15534a3b9bba67b65b6bc95e
+type: Request
+parentId: fld_679e5fa0a70d44e78785c5e6af4dd7b5
+modified: 1695838412471
+created: 1695838407574
+url: "{{ _.baseUrl }}/v1/dashboard-operation/contracts"
+name: Contratos
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695353282514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

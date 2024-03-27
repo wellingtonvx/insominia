@@ -1,0 +1,27 @@
+_id: req_7f6c0cbdf91b4fa484ce2b3321ae1d25
+type: Request
+parentId: fld_030369f691fa4b6db0fb5fc291cb6c27
+modified: 1699304290629
+created: 1695652440628
+url: "{{ _.baseUrl
+  }}/v1/reports/jobs/delays?start=2023-01-01%2000%3A00%3A00&end=2023-12-31%2023\
+  %3A59%3A59&period=monthly"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1695652440628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

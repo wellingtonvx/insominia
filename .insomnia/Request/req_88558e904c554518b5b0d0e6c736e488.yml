@@ -1,0 +1,25 @@
+_id: req_88558e904c554518b5b0d0e6c736e488
+type: Request
+parentId: fld_623dc72c7bf6447086750b3c6ed86543
+modified: 1694804381852
+created: 1694804377357
+url: "{{ _.baseUrl }}/v1/dashboard-monitoring/captation"
+name: Captation
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1693969783717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

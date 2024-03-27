@@ -1,0 +1,25 @@
+_id: req_75834f415ee2415a8c137468b4b575bc
+type: Request
+parentId: fld_0dff61e5536d4f8cb7dd91e80414573c
+modified: 1701110958860
+created: 1701109022711
+url: "{{ _.baseUrl }}/v1/customer/messages/config/1"
+name: GetConfigMessages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1701109022711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_7d1cb4e794014836a53f488be2fc2d5f
+type: Request
+parentId: fld_1ac602b3f4094bca92201deadfac0de2
+modified: 1709839558759
+created: 1709755109652
+url: "{{ _.baseUrl }}/v1/operation/photographer-availability/router?date=2024-03-07"
+name: Disponibilidade
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a6d8880bffb843b1a94eccf1bf288950
+      name: kmlFile
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/wellington/Área de Trabalho/08032024 mapa SP.kml
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1709147001119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

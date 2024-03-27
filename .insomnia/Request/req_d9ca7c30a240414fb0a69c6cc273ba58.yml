@@ -1,0 +1,25 @@
+_id: req_d9ca7c30a240414fb0a69c6cc273ba58
+type: Request
+parentId: fld_70db7d85ef9243a8a41dd63340621b5e
+modified: 1698344569892
+created: 1698344566119
+url: "{{ _.baseUrl }}/v1/photographers/feedbacks/need-feedback"
+name: NeedFeedback
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1697851139210
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

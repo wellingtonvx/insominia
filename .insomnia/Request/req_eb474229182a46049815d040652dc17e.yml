@@ -1,0 +1,25 @@
+_id: req_eb474229182a46049815d040652dc17e
+type: Request
+parentId: fld_623dc72c7bf6447086750b3c6ed86543
+modified: 1695143060215
+created: 1695131077159
+url: "{{ _.baseUrl }}/v1/dashboard-monitoring/feedback"
+name: Feedback
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1693641420054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

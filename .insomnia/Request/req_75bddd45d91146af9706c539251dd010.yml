@@ -1,0 +1,25 @@
+_id: req_75bddd45d91146af9706c539251dd010
+type: Request
+parentId: fld_68117ade2cf44466be1610ad1c932c21
+modified: 1700663079045
+created: 1700594212170
+url: "{{ _.baseUrl }}/v1/job/feedback/send-feedback"
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1700594212170
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

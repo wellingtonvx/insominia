@@ -1,0 +1,25 @@
+_id: req_737c5845c44543fa805c247b22e0e96d
+type: Request
+parentId: fld_70db7d85ef9243a8a41dd63340621b5e
+modified: 1698433360540
+created: 1698433344696
+url: "{{ _.baseUrl }}/v1/photographers/feedbacks/schedule"
+name: FeedbacksAgendados
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1697655320800.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

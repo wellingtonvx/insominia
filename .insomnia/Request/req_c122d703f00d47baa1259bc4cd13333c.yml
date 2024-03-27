@@ -1,0 +1,70 @@
+_id: req_c122d703f00d47baa1259bc4cd13333c
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1709130340255
+created: 1709129871971
+url: "{{ _.baseUrl }}/v2/jobs"
+name: CreateSingleJobs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"period": null,
+    	"status": "aberto",
+      "scheduleDate": "2024-03-04T12:00:00.000Z",
+      "uf": "SP",
+      "cityName": "São Paulo",
+      "zipCode": "05010-010",
+      "neighborhood": "Perdizes",
+      "number": "73",
+      "address": "Rua Ricardo Severo",
+    	"complement": "apt 103",
+      "inPlaceContactEmail": "wellingtonvx@gmail.com",
+      "inPlaceContactPhone": "97933893",
+      "inPlaceContactName": "Wellington Ribeiro",
+      "contactPhone": "97933893",
+      "contactEmail": "wellingtonvx@gmail.com",
+      "contactName": "Wellington Ribeiro",
+      "type": "business",
+      "countryId": 31,
+      "segmentId": 17,
+      "briefingId": 141,
+      "userId": 740325,
+      "organizationId": 80,
+      "region": "Oeste",
+      "extra": [
+              {
+                "name": "metragem",
+                "value": 0,
+                "type": "numero",
+                "contextRuleId": 2
+              }
+            ],
+      "bookingType": "sinlge",
+      "contactCompany": "Wellington Ribeiro",
+      "fullAddress": "R. Ricardo Severo, 73 - Perdizes, São Paulo - SP, 05010-010, Brasil",
+      "latitude": -23.5392493,
+      "longitude": -46.6722976,
+      "regenerate": 1706811905047,
+      "jobKeyAddress": null,
+    	"jobIdGrouping": "4c879d6a-7996-4270-b2e1-9434ccc8378f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1699647767216.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

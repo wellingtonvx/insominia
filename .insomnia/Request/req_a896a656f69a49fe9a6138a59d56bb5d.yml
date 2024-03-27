@@ -1,0 +1,27 @@
+_id: req_a896a656f69a49fe9a6138a59d56bb5d
+type: Request
+parentId: fld_83cce981ca574b4e895a5b2166e52222
+modified: 1709063343346
+created: 1709063292365
+url: https://app.fotop.io/v1/operation/photographer-availability/router?date=2024-02-28&cityNames=Santo
+  André,São Paulo,Diadema,São Bernardo do Campo,São Caetano do
+  Sul,Osasco,Guarulhos
+name: Disponibilidade Prod
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_prod }}"
+metaSortKey: -1709063292365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

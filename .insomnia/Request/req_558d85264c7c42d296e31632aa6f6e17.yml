@@ -1,0 +1,32 @@
+_id: req_558d85264c7c42d296e31632aa6f6e17
+type: Request
+parentId: fld_7758e91028f0446ea32637888424d701
+modified: 1700852913278
+created: 1700852859549
+url: "{{ _.baseUrl }}/v2/jobs/file-upload/check-integrity"
+name: Check integrity
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"key": "originais/business/8/58797/internal/0-1700851331875_|s|_sala_de_jantar.jpg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1699366768979
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

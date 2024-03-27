@@ -1,0 +1,25 @@
+_id: req_20e69ce98d4542c7a6093a59a90713c5
+type: Request
+parentId: fld_0dff61e5536d4f8cb7dd91e80414573c
+modified: 1701119256583
+created: 1701119254511
+url: "{{ _.baseUrl }}/v1/customer/messages/config"
+name: ListConfigMessages
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1700980320075.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

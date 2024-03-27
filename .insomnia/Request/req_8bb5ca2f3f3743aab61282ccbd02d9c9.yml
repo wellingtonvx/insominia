@@ -1,0 +1,23 @@
+_id: req_8bb5ca2f3f3743aab61282ccbd02d9c9
+type: Request
+parentId: fld_90711d662e3f432196404c27f34eab2a
+modified: 1708901217537
+created: 1708901204125
+url: "{{ _.baseUrl }}/v1/exams/8"
+name: Delete_Exam
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1672529751851.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

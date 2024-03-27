@@ -1,0 +1,25 @@
+_id: req_e37f18a92ed9424b97cca286f9cfa3a4
+type: Request
+parentId: fld_2dc7f10c8ade4393a0382fc130133c43
+modified: 1702384899795
+created: 1702384870772
+url: "{{ _.baseUrl }}/v1/job/requests/admin"
+name: RequestsAdmin
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1702384870772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

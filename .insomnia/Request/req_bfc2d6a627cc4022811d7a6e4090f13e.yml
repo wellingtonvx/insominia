@@ -1,0 +1,33 @@
+_id: req_bfc2d6a627cc4022811d7a6e4090f13e
+type: Request
+parentId: fld_b3cade6d25834af9a6d3180ddbc89f2a
+modified: 1699041597996
+created: 1699040122038
+url: "{{ _.baseUrl }}/v1/jobs/58450/execution"
+name: CreateExecution
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+    	"partnerId": 24089
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.token_login }}"
+metaSortKey: -1684594591347.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
