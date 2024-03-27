@@ -1,7 +1,7 @@
 _id: req_4860ecb973f443b2b38888bec7d800d4
 type: Request
 parentId: wrk_ec654d17af714e9790cf250cc253ad01
-modified: 1675426572697
+modified: 1701881829981
 created: 1675426381792
 url: "{{ _.prodUrl }}/v1/auth"
 name: Create_Token_prod
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email":"wellington@webventure.com.br",
-    	"password": "wellgui12"
+    	"password": "@Wellgui12"
     }
 parameters: []
 headers:
